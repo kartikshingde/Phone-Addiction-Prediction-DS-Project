@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.pkl
+*.db
+*.sqlite3
+env/
+venv/
+ENV/
+*.log
+
+
+# VSCode
+.vscode/
+
+
+
+# Node.js (React frontend)
+node_modules/
+build/
+dist/
+.env
+
+# Compiled files
+*.pyc
+*.pyo
+*.so
+
+# IDEs
+.idea/
+*.swp
+
+# System files
+Thumbs.db
+ehthumbs.db
