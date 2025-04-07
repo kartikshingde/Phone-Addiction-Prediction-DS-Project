@@ -76,8 +76,8 @@ accuracy = accuracy_score(y_test, y_pred)
 print(f"\nModel Accuracy: {accuracy * 100:.2f}%\n")
 print(classification_report(y_test, y_pred, target_names=le.classes_))
 
-# ✅ Save model and encoders
-joblib.dump(model, "addiction_model.pkl")
-joblib.dump(scaler, "scaler.pkl")
-joblib.dump(le, "label_encoder.pkl")
-print("✅ Model, scaler, and label encoder saved successfully!")
+# # ✅ Save model and encoders
+# joblib.dump(model, "addiction_model.pkl")
+# joblib.dump(scaler, "scaler.pkl")
+# joblib.dump(le, "label_encoder.pkl")
+# print("✅ Model, scaler, and label encoder saved successfully!")

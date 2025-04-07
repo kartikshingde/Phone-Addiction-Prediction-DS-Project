@@ -34,3 +34,5 @@ dist/
 # System files
 Thumbs.db
 ehthumbs.db
+
+dist
